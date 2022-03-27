@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeroDetailsComponent } from './hero-details.component';
+import { ImageBufferComponent } from './image-buffer.component';
 
-describe('HeroDetailsComponent', () => {
-  let component: HeroDetailsComponent;
-  let fixture: ComponentFixture<HeroDetailsComponent>;
+describe('ImageBufferComponent', () => {
+  let component: ImageBufferComponent;
+  let fixture: ComponentFixture<ImageBufferComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HeroDetailsComponent ]
+      declarations: [ ImageBufferComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeroDetailsComponent);
+    fixture = TestBed.createComponent(ImageBufferComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

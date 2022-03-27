@@ -1,2 +1,11 @@
 
-<app-heroes></app-heroes>
+  <app-image-compressor [quality]="50" [ratio]="50" (image)="receiveImage($event)"></app-image-compressor>
+  <app-image-buffer [imageCompressed]='image'></app-image-buffer>
+
+
+  <!--
+  <nav>
+  <a routerLink="heroes">Heroes</a>
+</nav>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>-->

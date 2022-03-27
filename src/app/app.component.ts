@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {NgxImageCompressService} from "ngx-image-compress";
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(){
+  image: string;
+  constructor() {}
+
+  receiveImage($event: string){
+    this.image = $event;
   }
 }
